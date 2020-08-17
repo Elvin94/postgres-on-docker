@@ -18,7 +18,7 @@ Running postgresql on docker
    sudo systemctl status dockerd.service 
    ```
    
-   Optional - Output should look like this
-    ### Step 2: Pull postgres docker image
+   
+  ### Step 2: Pull postgres docker image
    
    ![alt text](images/docker-pull-postgres.png "Check /data disk")
