@@ -44,7 +44,7 @@ Running postgresql on docker
    ```
    ![alt text](images/docker_ps.png "Check /data disk")
    
-   3.3 Get into postgres container 
+   3.3 Now you can execture Postgres container 
    ```sh
    # docker exec -it some-postgres bash
    ```
