@@ -1,24 +1,25 @@
 # postgres-on-docker
 Running postgresql on docker
 
+## Prerequisites
+ 1. Request access to LinuxONE Community Cloud. Follow instructions [here](https://github.com/Elvin94/LinuxONE-OSS-CC)
 
 
-  ### Step 2: Install docker
+  ### Step 1: Install docker
    
-   2.1 Start docker service
+   1.1 install docker
    ```sh
-   sudo system start dockerd.service 
+   # sudo yum install docker 
    ```
-   2.2 Enable docker service
+  1.2 Ensure docker installed by checking version
    ```sh
-  sudo system enable dockerd.service 
+   # sudo docker version
    ```
-   2.3 Check status of the docker service
-   ```sh
-   sudo systemctl status dockerd.service 
-   ```
-   
+    ![alt text](images/docker_version.png "Check /data disk")
    
   ### Step 2: Pull postgres docker image
+  ```sh
+   sudo yum install docker 
+   ```
    
    ![alt text](images/docker-pull-postgres.png "Check /data disk")
