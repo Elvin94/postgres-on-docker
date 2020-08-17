@@ -17,9 +17,15 @@ Running postgresql on docker
    ```
    ![alt text](images/docker_version.png "Check /data disk")
    
-  ### Step 2: Pull postgres docker image
-  ```sh
-   sudo docker pull postgres:latest
+  ### Step 2: Download Postgres image
+  2.1 Pull postgres docker image  
+   ```sh
+   # sudo docker pull postgres:latest
    ```
-   
    ![alt text](images/docker-pull-postgres.png "Check /data disk")
+
+  2.2 List docker images 
+   ```sh
+   # sudo docker images
+   ```
+   ![alt text](images/docker_images.png "Check /data disk")
