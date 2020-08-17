@@ -19,7 +19,7 @@ Running postgresql on docker
    
   ### Step 2: Pull postgres docker image
   ```sh
-   sudo yum install docker 
+   sudo docker pull postgres:latest
    ```
    
    ![alt text](images/docker-pull-postgres.png "Check /data disk")
