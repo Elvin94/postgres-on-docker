@@ -31,15 +31,21 @@ Running postgresql on docker
    ![alt text](images/docker_images.png "Check /data disk")
 
 
-### Step 2:Running Postgres docker images
-  2.1 Pull postgres docker image  
+### Step 3:Running Postgres docker images
+  3.1 Run postgres docker image as a container 
    ```sh
-   # sudo docker pull postgres:latest
+   # docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
    ```
    ![alt text](images/docker-pull-postgres.png "Check /data disk")
 
-  2.2 List docker images 
+  3.2 After succesfully running last command, you can now check the running container 
    ```sh
-   # sudo docker images
+   # docker ps
+   ```
+   ![alt text](images/docker_images.png "Check /data disk")
+   
+   3.3 Get into postgres container 
+   ```sh
+   # docker exec -it some-postgres bash
    ```
    ![alt text](images/docker_images.png "Check /data disk")
