@@ -36,16 +36,16 @@ Running postgresql on docker
    ```sh
    # docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
    ```
-   ![alt text](images/docker-pull-postgres.png "Check /data disk")
+   ![alt text](images/docker_run.png "Check /data disk")
 
   3.2 After succesfully running last command, you can now check the running container 
    ```sh
    # docker ps
    ```
-   ![alt text](images/docker_images.png "Check /data disk")
+   ![alt text](images/docker_ps.png "Check /data disk")
    
    3.3 Get into postgres container 
    ```sh
    # docker exec -it some-postgres bash
    ```
-   ![alt text](images/docker_images.png "Check /data disk")
+   ![alt text](images/docker_exec.png "Check /data disk")
