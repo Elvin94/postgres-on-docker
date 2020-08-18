@@ -1,4 +1,4 @@
-# postgres-on-docker
+# How to install docker and deploy postgres docker image
 Running postgresql on docker
 
 ## Prerequisites
@@ -49,3 +49,9 @@ Running postgresql on docker
    # docker exec -it some-postgres bash
    ```
    ![alt text](images/docker_exec.png "Check /data disk")
+   
+  3.4 connect to postgresql using user postgres 
+   ```sh
+   # psql -U postgres
+   ```
+   ![alt text](images/docker_postgres.png "Check /data disk")
