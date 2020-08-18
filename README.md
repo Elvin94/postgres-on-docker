@@ -1,4 +1,4 @@
-# How to install docker and deploy postgres docker image
+# How to install docker and deploy postgres docker image using LinuxONE Community Cloud
 Running postgresql on docker
 
 ## Prerequisites
